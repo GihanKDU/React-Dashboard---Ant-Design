@@ -1,0 +1,359 @@
+@import './variable.scss';
+
+// Drawer SCSS
+.ant-drawer-content-wrapper {
+    width: 800px !important;
+}
+
+.ant-drawer-close {
+    position: absolute;
+    left: -50px;
+    background: $light-black !important;
+    color: $white !important;
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    font-size: 14px !important;
+
+    .anticon {
+        vertical-align: 0 !important;
+    }
+
+
+}
+
+
+
+.product-font-primary {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-font-secondry {
+    font-size: 12px;
+    color: $gray;
+
+}
+
+.product-font-teritory {
+    font-size: 12px;
+    color: $black;
+    font-weight: 500;
+
+}
+
+.main-img {
+    height: 220px;
+}
+
+// Flex SCSS
+.d-flex {
+    display: flex !important;
+    align-items: center;
+}
+
+.perfect-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
+
+// Adjustment SCSS
+.w-100 {
+    width: 100% !important;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+
+// Top Header
+.main-logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: $blue;
+}
+header {
+    padding: 0 !important;
+    margin: 8px 16px;
+}
+
+.border-0 {
+    border: none !important;
+}
+
+.height-auto {
+    height: auto !important;
+}
+
+.filter-section {
+    border: solid 1px $boarder-line;
+    border-radius: 6px;
+    background: $white;
+
+}
+
+.filter-icon {
+    width: 40px;
+    height: 32px;
+    border-radius: 3px;
+    background: $gray;
+    color: $white;
+}
+
+.btn-blue {
+    background: $blue;
+    border: none !important;
+    color: $white;
+
+    :hover {
+        background: $blue;
+        border: none !important;
+        color: $white;
+    }
+
+}
+.btn-border{
+    background: none !important;
+    border: solid 1px $gray !important;
+    border-radius: unset !important;
+    
+}
+
+.btn-setting {
+    border: solid 1px $gray;
+    font-size: 15px !important;
+    height: 32px;
+    width: 32px;
+}
+.border-radius-0{
+    border-radius: unset !important;  
+}
+
+// Top Action Component
+.ant-layout-header {
+    line-height: 0 !important;
+    height: auto !important;
+}
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    background: purple;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+
+// Chips SCSS
+
+.blue-chip {
+    color: $blue;
+    background: $blue-50;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.green-chip {
+    color: $green;
+    background: $green-50;
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.orange-chip {
+    background: $orange-50;
+    font-size: 12px;
+    padding: 2px 5px;
+    border: solid 1px $orange;
+
+    .anticon-exclamation-circle {
+        color: $white;
+        background-color: $orange;
+        border-radius: 30px;
+        font-size: 20px;
+
+    }
+}
+
+// Table SCSS
+.btn-empty {
+    background: none;
+    box-shadow: none;
+    color: black;
+
+    :hover {
+        background: none !important;
+    }
+}
+
+.ant-btn-primary:not(:disabled):hover {
+    background: none;
+    box-shadow: none;
+    color: black;
+}
+
+.react-multi-carousel-list {
+    li {
+        width: unset !important;
+    }
+
+}
+
+.box1 {
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    margin: 0 10px;
+}
+
+.box2 {
+    height: 250px;
+    width: 200px;
+    background-color: rgb(0, 136, 255);
+    margin: 0 10px;
+}
+
+// Carousel Slider
+.carousel-slider {
+
+    img {
+        width: 200px;
+        object-fit: cover;
+        height: 150px;
+    }
+
+    .ant-card-body {
+        padding: 10px;
+
+    }
+
+    .card-slider {
+        margin: 0 10px;
+    }
+}
+
+.item-font-primary {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+// Chart SCSS
+
+.custom-chart {
+    .ant-radio-button-wrapper {
+        line-height: normal !important;
+    }
+}
+.blue-label-box {
+    background: $blue;
+    height: 10px;
+    width: 40px;
+}
+.purple-label-box {
+    background: $purple;
+    height: 10px;
+    width: 40px;
+}
+.orange-label-box {
+    background: $orange;
+    height: 10px;
+    width: 40px;
+}
+.green-label-box {
+    background: $green;
+    height: 10px;
+    width: 40px;
+}
+
+.ant-menu-item-selected{
+    background-color: $blue-50 !important;
+    color: $blue !important; 
+    border-left: solid 2px $blue;
+}
+.ant-menu-item:not(.ant-menu-item-selected):hover{
+background-color: $blue-50 !important;
+color: $blue !important;
+border-left: solid 2px $blue;
+border-radius: none !important;
+}
+.ant-menu-item {
+    border-radius: unset !important;
+}
+
+.bg-light{
+    background: whitesmoke !important;
+}
+.ant-layout {
+    background: $white !important;
+}
+.ant-layout-footer {
+    background: $white !important;
+}
+.ant-layout-sider-children{
+    border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+.ant-layout-sider-trigger{
+    border-inline-end: 1px solid rgba(5, 5, 5, 0.06);
+}
+.ant-menu-item-only-child{
+    border-bottom:1px solid rgba(5, 5, 5, 0.06); ;
+}
